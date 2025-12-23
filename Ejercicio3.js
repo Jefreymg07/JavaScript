@@ -6,13 +6,14 @@ let sumaNumerosAcumulados = 0;
 
 let contador = 1;
 
-while(contador <= repeticiones) {
+while (contador <= repeticiones) {
+  let aumentoAnterior = sumaNumerosAcumulados;
 
-    let aumentoAnterior = sumaNumerosAcumulados;
+  sumaNumerosAcumulados += contador;
 
-    sumaNumerosAcumulados += contador;
+  console.log(
+    `La suma de ${aumentoAnterior} + ${contador} es = ${sumaNumerosAcumulados}`
+  );
 
-    console.log(`La suma de ${aumentoAnterior} + ${contador} es = ${sumaNumerosAcumulados}`);
-
-    contador++;
+  contador++;
 }

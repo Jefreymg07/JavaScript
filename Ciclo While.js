@@ -5,6 +5,6 @@ let contador = 5;
 
 let valores = 0;
 
-while(contador > valores) {
-    console.log(++valores);
+while (contador > valores) {
+  console.log(++valores);
 }

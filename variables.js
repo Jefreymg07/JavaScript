@@ -1,4 +1,4 @@
-var  miNumero = 10;
+var miNumero = 10;
 console.log(miNumero);
 
 let miNombre = "Jefrey Gerardo";

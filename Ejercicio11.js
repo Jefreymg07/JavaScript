@@ -1,16 +1,17 @@
-function tablasDeMultiplicar(numeroDeTablas,multiplicacion) {
+// Una funcion que permite ver la cantidad de tablas que tenga el argumento para despues pasar ese valor al parametro de la funcion, estas tablas de multiplicar van del 1 hasta la cantidad indicada.
 
-    for(i = 1; i <= numeroDeTablas; i++) {
+function tablasDeMultiplicar(numeroDeTablas, multiplicacion) {
+  for (i = 1; i <= numeroDeTablas; i++) {
+    let saltoDeLinea = "";
 
-        let saltoDeLinea = "";
-
-        for(j = 1; j <= multiplicacion; j++) {
-            saltoDeLinea += i * j + " ";
-        }
-        console.log(saltoDeLinea)       
+    for (j = 1; j <= multiplicacion; j++) {
+      saltoDeLinea += i * j + " ";
     }
+    console.log(saltoDeLinea);
+  }
 }
 
-let cantidadDeTablas = 5, multiplicacion = 10;
+let cantidadDeTablas = 5,
+  multiplicacion = 10;
 
-tablasDeMultiplicar(cantidadDeTablas,multiplicacion);
+tablasDeMultiplicar(cantidadDeTablas, multiplicacion);

@@ -4,10 +4,8 @@ let dias = 7;
 
 let acumuladorKg = 0;
 
-for(contador = 1; contador <= dias; contador++) {
+for (contador = 1; contador <= dias; contador++) {
+  acumuladorKg += contador;
 
-    acumuladorKg += contador;
-
-    console.log(`Dia ${contador} = ${acumuladorKg}kg`);
-
+  console.log(`Dia ${contador} = ${acumuladorKg}kg`);
 }

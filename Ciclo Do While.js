@@ -6,7 +6,5 @@ let contador = 5;
 let valores = 0;
 
 do {
-
-    console.log(++valores);
-    
-} while(contador > valores);
+  console.log(++valores);
+} while (contador > valores);

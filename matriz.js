@@ -1,4 +1,4 @@
-let matriz = [[],[]];
+let matriz = [[], []];
 
 // Valores del renglon 0 (arreglo #1)
 matriz[0][0] = "Jefrey";

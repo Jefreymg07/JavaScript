@@ -1,9 +1,9 @@
-let repeticiones = 10;
+// Ejercicio Tabla de multiplicar
 
-let multiplicacion = 5;
+let multiplicacion = 10;
 
-for(i = 1; i <= repeticiones; i++) {
+let numeroMultiplicar = 5;
 
-    console.log(`${multiplicacion} x ${i} = ${multiplicacion * i}`)
-    
+for (i = 1; i <= multiplicacion; i++) {
+  console.log(`${numeroMultiplicar} x ${i} = ${numeroMultiplicar * i}`);
 }

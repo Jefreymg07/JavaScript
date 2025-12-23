@@ -1,14 +1,13 @@
-function calcularArea (base, altura) {
+function calcularArea(base, altura) {
+  let multiplicacion = base * altura;
 
-    let multiplicacion = base * altura;
-
-    return multiplicacion;
-
+  return multiplicacion;
 }
 
 // Llamada de la funcion:
 
-let base = 5, altura = 10;
+let base = 5,
+  altura = 10;
 
 let resultado = calcularArea(base, altura);
 

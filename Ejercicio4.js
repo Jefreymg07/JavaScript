@@ -5,11 +5,9 @@ let sumaDeNumeros = 0;
 let contador = 1;
 
 do {
-    
-    sumaDeNumeros += contador;
+  sumaDeNumeros += contador;
 
-    contador++
+  contador++;
 
-    console.log(sumaDeNumeros);
-
-} while(contador <= repeticiones);
+  console.log(sumaDeNumeros);
+} while (contador <= repeticiones);

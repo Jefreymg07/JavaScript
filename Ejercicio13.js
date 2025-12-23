@@ -1,3 +1,5 @@
+// Declare un arreglo y separe los elementos de este, almacenandolos en los otros dos arreglos correspondientes para cada valor.
+
 let paquetes = [10, 65, 20, 5, 90, 50, 30, 105];
 
 let livianos = [];
