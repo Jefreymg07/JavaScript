@@ -1,7 +1,8 @@
 let repeticionesReglones = 6;
-let saltoDeLinea = "";
 for (i = 1; i <= repeticionesReglones; i++) {
+  let saltoDeLinea = "";
   for (j = 1; j <= i; j++) {
-    console.log((saltoDeLinea += "*"));
+    saltoDeLinea += "*";
   }
+  console.log(saltoDeLinea);
 }

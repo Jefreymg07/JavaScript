@@ -1,7 +1,7 @@
 function operacionMatematica(a, b) {
   let resultado = a + b;
 
-  // sin esto no regresario el valor de la operacion
+  // sin esto no regresaria el valor de la operacion
   return resultado;
 }
 

@@ -11,7 +11,7 @@ function tablasDeMultiplicar(numeroDeTablas, multiplicacion) {
   }
 }
 
-let cantidadDeTablas = 5,
+let cantidadDeTablas = 50,
   multiplicacion = 10;
 
 tablasDeMultiplicar(cantidadDeTablas, multiplicacion);
