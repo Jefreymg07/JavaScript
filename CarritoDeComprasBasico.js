@@ -18,7 +18,7 @@ for (i = 0; i < carritoDeCompras.length; i++) {
   totalProducto =
     carritoDeCompras[i].cantidad * carritoDeCompras[i].precio;
 
-  // Aqui es donde el monto se va almacenando todo el total a cancelar de todos los productos.
+  // Aqui es donde el monto se va almacenando, todo el total a cancelar de todos los productos.
   totalDeCompra += totalProducto;
 
   console.log(
