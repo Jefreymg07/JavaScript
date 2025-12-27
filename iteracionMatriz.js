@@ -13,7 +13,6 @@ console.log(matriz[1].length);
 
 for (i = 0; i < matriz.length; i++) {
   console.log(matriz[i]);
-
   for (j = 0; j < matriz[i].length; j++) {
     console.log(matriz[i][j]);
   }
