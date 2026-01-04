@@ -1,3 +1,5 @@
+// Funcion recursiva que acorta una palabra en el orden que se indique en la variable "cortador"
+
 const cortaLetra = (letras, cortador) => {
     if(letras == "") {
         return "";

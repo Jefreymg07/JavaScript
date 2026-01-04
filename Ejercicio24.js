@@ -1,3 +1,5 @@
+// Funcion recursiva de cuenta regresiva del tiempo (como temporizador de despegue)
+
 const cuentaRegresiva = (tiempo) => {
     if (tiempo == -1) {
         return 0;
