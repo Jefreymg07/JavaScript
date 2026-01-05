@@ -1,4 +1,5 @@
-let numero1 = "10", numero2 = "20";
+let numero1 = "10",
+  numero2 = "20";
 
 let operacion = numero1 + numero2;
 
@@ -14,7 +15,8 @@ console.log(operacionParse);
 
 // Ahora se cambio el valor de tipo int a texto.
 
-let number = 500, number2 = 400;
+let number = 500,
+  number2 = 400;
 
 // Usamos ".toString()" despues de la variable a convertir a texto con.
 
