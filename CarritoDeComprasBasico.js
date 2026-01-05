@@ -15,8 +15,7 @@ for (i = 0; i < carritoDeCompras.length; i++) {
   let totalProducto = 0;
 
   // Aqui almacenamos la cantidad del monto total (cantidad * precio) para todos los productos dentro del arreglo recorridos por el for.
-  totalProducto =
-    carritoDeCompras[i].cantidad * carritoDeCompras[i].precio;
+  totalProducto = carritoDeCompras[i].cantidad * carritoDeCompras[i].precio;
 
   // Aqui es donde el monto se va almacenando, todo el total a cancelar de todos los productos.
   totalDeCompra += totalProducto;
