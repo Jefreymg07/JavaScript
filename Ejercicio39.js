@@ -20,7 +20,7 @@ campeones.push(
 );
 
 const noMostrarMetodos = (campeonIndividual) => {
-  let informacionCampeon = "";
+  let informacionCampeon = ""; // Esta variable hace que se impriman de manera ordenada los objetos
   for (let propiedades in campeonIndividual) {
     if (typeof campeonIndividual[propiedades] === "function") {
       continue;

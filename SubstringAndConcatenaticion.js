@@ -1,10 +1,11 @@
-// Subcadenas JavaScript 
+// Subcadenas JavaScript
 
 // Ejercicio substraer la segunda palabra
 
 let palabra = "Hola Mundo";
 
-// El metodo substring trae la letra del indice especificado hasta el final del otro indice especificaco
+/* El metodo substring trae la letra del indice especificado hasta el final del otro indice especificaco
+pero para abarcar el ultimo valor a imprimer se le da un indice extra */
 
 let substraer = palabra.substring(5, 10);
 
