@@ -2,6 +2,8 @@ function Soldado(nombre) {
   this.nombre = nombre;
 }
 
+// prototype hace una nueva propiedad externa para el constructor
+
 Soldado.prototype.ejercito = "Rebeldes";
 
 soldado1 = new Soldado("Soldier");
